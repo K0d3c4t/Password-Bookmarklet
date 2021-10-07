@@ -1,5 +1,5 @@
 # Password-Bookmarklet
-Its pretty self explanatory.
+Put your favorite websites, password sheets, or journals behind this password protected bookmarklet.
 ## Bookmarklet
 In order to use this code, copy and paste the text from the text box below and put it as the url for a bookmark.
 #### Basic Bookmarklet
