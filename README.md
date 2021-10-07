@@ -1,5 +1,6 @@
 # Password-Bookmarklet
 Put your favorite websites, password sheets, or journals behind this password protected bookmarklet.
+To customize, replace "google.com" with the webpage you want and "test" with the password you want.
 ## Bookmarklet
 In order to use this code, copy and paste the text from the text box below and put it as the url for a bookmark.
 #### Basic Bookmarklet
