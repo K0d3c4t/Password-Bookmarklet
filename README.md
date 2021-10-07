@@ -1,5 +1,5 @@
 # Password-Bookmarklet
-Its pretty self explanatory. WIP RIGHT NOW
+Its pretty self explanatory.
 ## Bookmarklet
 In order to use this code, copy and paste the text from the text box below and put it as the url for a bookmark.
 #### Basic Bookmarklet
@@ -8,5 +8,5 @@ javascript:var%20password = prompt("Please enter password");{ if(password =="tes
 ```
 #### Usable Anywhere Bookmarklet
 ```javascript
-https://google-gruyere.appspot.com/123/<script>var%20password = prompt("Please enter password");{ if(password =="test"){alert("Access Granted");window.location.href="google.com";}else{if(password!= null)alert("Access Denied");}};</script>
+https://whoislookup.pro/<script>var password = prompt("Please enter password");%7B if(password =="test")%7Balert("Access Granted");window.location.href="google.com";%7Delse%7Bif(password!= null)alert("Access Denied");%7D%7D;</script>
 ```
