@@ -11,7 +11,10 @@ Text += '<input type="password" name="password">';
 Text += '<\/form>';    
 theWindow.document.open();    
 theWindow.document.write(Text);
-theWindow.document.close();}
-alert(opener.location);
+theWindow.document.close();
+if (document.getElementById(password).value == "5"){
+alert(1);
+} else {
+alert(2);};}
 passwordField();
 */
