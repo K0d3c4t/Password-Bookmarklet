@@ -6,7 +6,7 @@ if (password != null)
 alert("Access Denied" );}};
 /*
 function passwordField(){theWindow = window.open('','newwin','width=100,height=100');
-if (!theWindow.opener) theWindow.opener=self;Text = '<form ';Text +='onSubmit="opener.location=this.password.value + \'.html\'; self.close();if (this.password.value == "test"){alert("good");} else {alert("bad");}">';
+if (!theWindow.opener) theWindow.opener=self;Text = '<form ';Text +='onSubmit="opener.location=this.password.value + \'.html\'; self.close();if (this.password.value == "test"){alert("good");} else {alert("bad");};">';
 Text += '<input type="password" name="password">';
 Text += '<\/form>';    
 theWindow.document.open();    
