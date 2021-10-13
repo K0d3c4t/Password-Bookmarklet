@@ -6,11 +6,11 @@ if (password != null)
 alert("Access Denied" );}};
 /*
 function passwordField(){theWindow = window.open('','newwin','width=100,height=100');
-if (!theWindow.opener) theWindow.opener=self;Text = '<form ';Text +='onSubmit="var thePassword=this.password.value + \'.html\'; self.close();if (thePassword.password.value==test) {
+if (!theWindow.opener) theWindow.opener=self;Text = '<form ';Text +='onSubmit="var thePassword=this.password.value + \'.html\'; if (thePassword.password.value==test) {
 alert(1);
 } else {
 alert(2);
-};">';
+};self.close();">';
 Text += '<input type="password" name="password">';
 Text += '<\/form>';    
 theWindow.document.open();    
@@ -23,3 +23,6 @@ theWindow.document.close();
 }
 passwordField();
 */
+
+
+
